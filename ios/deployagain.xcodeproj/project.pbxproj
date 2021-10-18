@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4F86B5ED271DAF570091908E /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F86B5EC271DAF570091908E /* AppCenter-Config.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8F1BD83FEA287E1F005C02AD /* libPods-deployagain-deployagainTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A035AB90C44F97408FC168C2 /* libPods-deployagain-deployagainTests.a */; };
 		A3C55FA3A3CBED286B77DF35 /* libPods-deployagain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6C5B9A1F8C1E7B6355C7DA /* libPods-deployagain.a */; };
@@ -39,6 +40,7 @@
 		221C8B9FEE394C5405664822 /* Pods-deployagain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deployagain.debug.xcconfig"; path = "Target Support Files/Pods-deployagain/Pods-deployagain.debug.xcconfig"; sourceTree = "<group>"; };
 		243A256B4C75ABF3FFD8190C /* Pods-deployagain-deployagainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deployagain-deployagainTests.release.xcconfig"; path = "Target Support Files/Pods-deployagain-deployagainTests/Pods-deployagain-deployagainTests.release.xcconfig"; sourceTree = "<group>"; };
 		3DE7AF8FAEE468734E1300D2 /* Pods-deployagain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deployagain.release.xcconfig"; path = "Target Support Files/Pods-deployagain/Pods-deployagain.release.xcconfig"; sourceTree = "<group>"; };
+		4F86B5EC271DAF570091908E /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "../AppCenter-Config.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = deployagain/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		979AC382A6EA4CA4D0D15C87 /* Pods-deployagain-deployagainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deployagain-deployagainTests.debug.xcconfig"; path = "Target Support Files/Pods-deployagain-deployagainTests/Pods-deployagain-deployagainTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A035AB90C44F97408FC168C2 /* libPods-deployagain-deployagainTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-deployagain-deployagainTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				4F86B5EC271DAF570091908E /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* deployagain */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* deployagainTests */,
@@ -145,7 +148,6 @@
 				979AC382A6EA4CA4D0D15C87 /* Pods-deployagain-deployagainTests.debug.xcconfig */,
 				243A256B4C75ABF3FFD8190C /* Pods-deployagain-deployagainTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +247,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4F86B5ED271DAF570091908E /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
